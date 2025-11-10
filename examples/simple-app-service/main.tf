@@ -2,7 +2,7 @@
 provider "azurerm" {
   features {}
 }
-
+# app-service information
 module "app-service" {
   source  = "kumarvna/app-service/azurerm"
   version = "1.1.0"
